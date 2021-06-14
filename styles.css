@@ -52,13 +52,11 @@ body::-webkit-scrollbar {
   padding: 0;
 }
 
-#img_home {
-  background-image: url("https://media.giphy.com/media/BTnAwYSEebkPnaojQc/giphy.gif");
+.video-div {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 93vh;
-  width: 100%;
+  height: 92vh;
   alt: inherit;
 }
 
@@ -136,13 +134,12 @@ transition: 2s ease;
 
 /********************VISTA MOVIL*****************/
 @media only screen and (max-width: 420px) {
-  #img_home {
-    background-image: url("https://media.giphy.com/media/BTnAwYSEebkPnaojQc/giphy.gif");
+    
+  .video-div {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 94vh;
-    width: 100%;
+    height: 93vh;
     alt: inherit;
   }
 
@@ -174,13 +171,11 @@ transition: 2s ease;
 
 /********************VISTA TABLET****************/
 @media only screen and (max-width: 768px) {
-  #img_home {
-    background-image: url("https://media.giphy.com/media/BTnAwYSEebkPnaojQc/giphy.gif");
+  .video-div {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 95vh;
-    width: 100%;
     alt: inherit;
   }
 
